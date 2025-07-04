@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Zone - Studio Tańca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #b3207a;
+            color: white;
+            padding: 40px 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Studio Tańca Dance Zone</h1>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="o-nas.html">O nas</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Poznaj świat tańca współczesnego</h2>
+    <p>Dance Zone to nowoczesne studio taneczne dla dzieci, młodzieży i dorosłych.</p>
+
+    <div class="gallery">
+        <img src="images/gallery1.jpg" alt="Taniec 1">
+        <img src="images/gallery2.jpg" alt="Taniec 2">
+        <img src="images/gallery3.jpg" alt="Taniec 3">
+    </div>
+</section>
+
+<footer style="padding: 20px; background: #eee;">
+    &copy; 2025 Dance Zone Studio Tańca | kontakt@dancezone.pl
+</footer>
+
+</body>
+</html>
