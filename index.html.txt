@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dance Zone - Studio Tańca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Studio Tańca Dance Zone</h1>
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="o-nas.html">O nas</a>
+    </nav>
+</header>
+
+<section class="about">
+    <h2>Poznaj świat tańca współczesnego</h2>
+    <p>Dance Zone to nowoczesne studio taneczne dla dzieci, młodzieży i dorosłych.</p>
+</section>
+
+<footer>
+    &copy; 2025 Dance Zone Studio Tańca | kontakt@dancezone.pl
+</footer>
+
+</body>
+</html>
