@@ -1,4 +1,49 @@
 /* Podstawowe ustawienia */
+
+.offer li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #b3207a;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.offer li:hover {
+    background: #fafafa;
+}
+
+/* Plan zajęć - tabela */
+.schedule {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+/* Stopka */
+footer {
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+}/* Podstawowe ustawienia */
 }
 
 .contact button {
