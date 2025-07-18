@@ -7,21 +7,13 @@
     <!-- Opis strony w Google -->
     <meta name="description" content="Studio Tańca Dance Zone – nowoczesne zajęcia taneczne dla dzieci, młodzieży i dorosłych. Taniec współczesny, Jazz-funk, Hip-Hop i więcej. Zapisy otwarte!">
 
-    <!-- Słowa kluczowe -->
-    <meta name="keywords" content="studio tańca, dance zone, taniec współczesny, hip-hop dla dzieci, jazz-funk, zajęcia taneczne, taniec dla dorosłych, szkoła tańca, taniec nowy targ, taniec dla dzieci, taniec dla młodzieży">
+    <!-- Słowa kluczowe dla wyszukiwarek -->
+    <meta name="keywords" content="studio tańca, dance zone, taniec współczesny, hip-hop, jazz-funk, zajęcia taneczne, szkoła tańca, taniec dla dzieci, taniec dla dorosłych">
 
-    <!-- Tytuł strony w Google -->
-    <title>Studio Tańca Dance Zone – Nowoczesne Zajęcia Taneczne dla Dzieci, Młodzieży i Dorosłych</title>
+    <!-- Tytuł strony w Google i zakładce przeglądarki -->
+    <title>Studio Tańca Dance Zone – Nowoczesne Zajęcia Taneczne</title>
 
-    <!-- Link do stylów -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Studio Tańca Dance Zone – nowoczesne zajęcia taneczne dla dzieci, młodzieży i dorosłych">
-    <meta name="keywords" content="studio tańca, dance zone, taniec współczesny, hip-hop, jazz dla dzieci, zajęcia dla dorosłych">
-    <title>Studio Tańca Dance Zone</title>
+    <!-- Link do stylów CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -39,46 +31,13 @@
     <p>Dance Zone to nowoczesne studio taneczne dla dzieci, młodzieży i dorosłych.</p>
 </section>
 
-<section class="schedule">
-    <h2>Plan Zajęć</h2>
-    <p>Taniec współczesny, Jazz-funk, Hip-Hop i zajęcia dla dorosłych</p>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Dzień</th>
-                <th>Godzina</th>
-                <th>Rodzaj zajęć</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Poniedziałek</td>
-                <td>17:00–18:30</td>
-                <td>Hip-Hop</td>
-            </tr>
-            <tr>
-                <td>Wtorek</td>
-                <td>18:00–19:30</td>
-                <td>Taniec Współczesny</td>
-            </tr>
-            <tr>
-                <td>Środa</td>
-                <td>16:30–18:00</td>
-                <td>Jazz-funk (dla dzieci)</td>
-            </tr>
-            <tr>
-                <td>Czwartek</td>
-                <td>19:00–20:30</td>
-                <td>Taniec współczesny dla dorosłych</td>
-            </tr>
-            <tr>
-                <td>Piątek</td>
-                <td>17:00–18:30</td>
-                <td>Hip-Hop dla młodzieży</td>
-            </tr>
-        </tbody>
-    </table>
+<section class="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery-images">
+        <img src="images/gallery1.jpg" alt="Taniec 1">
+        <img src="images/gallery2.jpg" alt="Taniec 2">
+        <img src="images/gallery3.jpg" alt="Taniec 3">
+    </div>
 </section>
 
 <section class="contact">
@@ -105,32 +64,30 @@
     </form>
 </section>
 
+<section class="offer">
+    <h2>Nasza Oferta</h2>
+    <ul>
+        <li>▸ Taniec współczesny</li>
+        <li>▸ Jazz-funk (dla dzieci)</li>
+        <li>▸ Hip-Hop (dla młodzieży)</li>
+        <li>▸ Taniec dla dorosłych</li>
+    </ul>
+</section>
+
+<section class="schedule">
+    <h2>Plan Zajęć</h2>
+    <table>
+        <tr><th>Dzień</th><th>Godzina</th><th>Rodzaj zajęć</th></tr>
+        <tr><td>Poniedziałek</td><td>17:00–18:30</td><td>Hip-Hop</td></tr>
+        <tr><td>Wtorek</td><td>18:00–19:30</td><td>Taniec Współczesny</td></tr>
+        <tr><td>Środa</td><td>16:30–18:00</td><td>Jazz-Funk (dla dzieci)</td></tr>
+        <tr><td>Czwartek</td><td>19:00–20:30</td><td>Taniec współczesny dla dorosłych</td></tr>
+    </table>
+</section>
+
 <footer>
     &copy; 2025 Dance Zone Studio Tańca | kontakt@dancezone.pl
 </footer>
 
 </body>
 </html>
-<section class="contact">
-    <h2>Skontaktuj się z nami</h2>
-    <p>Masz pytania? Chcesz zapisać się na zajęcia? Wypełnij formularz poniżej!</p>
-
-    <form action="https://formspree.io/f/UNIKALNE_ID_FORMULARZA " method="POST">
-        <label>
-            Imię i nazwisko:
-            <input type="text" name="name" required>
-        </label>
-
-        <label>
-            E-mail:
-            <input type="email" name="email" required>
-        </label>
-
-        <label>
-            Wiadomość:
-            <textarea name="message"></textarea>
-        </label>
-
-        <button type="submit">Wyślij wiadomość</button>
-    </form>
-</section>
